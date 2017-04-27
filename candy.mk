@@ -1,9 +1,9 @@
 $(call inherit-product, device/lge/d855/full_d855.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+# Inherit some common Candy stuff.
+$(call inherit-product, vendor/candy/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_d855
+PRODUCT_NAME := candy_d855
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE="g3" \
